@@ -1,0 +1,48 @@
+.latest-match-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1120px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.latest-match-image {
+  height: 200px;
+}
+
+.latest-match-card-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  /* align-items: c; */
+}
+
+.competing-team-container {
+  text-align: start;
+  width: 280px;
+}
+
+.competing-innings {
+  text-align: end;
+}
+
+.match-result {
+  font-size: 16px;
+}
+
+.innings-heading {
+  font-size: 21px;
+}
+
+.competing-match-team-name {
+  font-size: 30px;
+}
+
+.competing-match-venue {
+  width: 200px;
+}

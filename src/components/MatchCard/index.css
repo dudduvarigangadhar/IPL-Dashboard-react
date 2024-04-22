@@ -1,0 +1,41 @@
+.recent-match-card {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  width: 350px;
+  background-color: #1e293b;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.competing-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.competing-team {
+  font-size: 30px;
+  width: 250px;
+  /* width: 300px; */
+  /* text-align: center; */
+}
+
+.competing-result {
+  width: 200px;
+}
+
+.lose {
+  color: #e31a1a;
+}
+
+.won {
+  color: #18ed66;
+}
